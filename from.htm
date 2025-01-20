@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mama Foods</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <style>
+    /* @import url("https://fonts.googleapis.com/css2?family=Doto&family=Merriweather:wght@300;400&display=swap"); */
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="wmf header_h1"> Mama Foods</h1>
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li><a href="/">Home</a></li>
+          <!-- <li>
+            <a href="/#about">About</a>
+          </li> -->
+          <li>
+            <a href="/#menu"> Menu</a>
+          </li>
+          <li><a href="info.html">Mama What❔</a></li>
+          <!-- <li><a href="harry.html">Harrys Projects</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <figure class="img-h">
+        <img src="ing/tacos_tray_400x267.png" alt="Mama Foods" title="Foods and Drinks" width="1000" height="667" />
+        <figcaption class="offscreen">
+          <b><i>A Tray of Tasty Food</i></b>
+        </figcaption>
+      </figure>
+    </section>
+    <main>
+      <articale class="main_articale contact">
+
+      <section class="contact_all">
+      <h2 class="contact_h2">Fill up the form</h2>
+     
+      <form action="https://httpbin.org/get" method="get" class="contact_form">
+        <fieldset class="contact_fieldset">
+          <legend class="offscreen">Contact us</legend>
+        <p class="contact_p">
+        <label class="contact_label" for="name">Name:</label>
+        <input class="contact_input" type="text" id="name" placeholder="your name">
+        </p>
+        <p class="contact_p">
+          <label class="contact_label" for="email">Email:</label>
+          <input class="contact_input" type="email" id="email" placeholder="your email">
+        </p>
+        <p class="contact_p">
+            <label class="contact_label" for="massage">Massage:</label>
+        <br>
+            <textarea class="contact_textarea"
+              name="message"
+              id="massage"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </p>
+        </fieldset>
+        <button class="contact_button" type="submit">
+          Send
+        </button>
+        <button class="contact_button" type="reset">Reset</button>
+     </form>
+    
+     </section>
+      </articale>
+    </main>
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+      <span class="nowrap">Mama Foods</span>
+    </p>
+      <!-- <a href="#">Back to Top</a> -->
+    </footer>
+  </body>
+</html>
